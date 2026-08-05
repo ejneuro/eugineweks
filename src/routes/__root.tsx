@@ -77,23 +77,30 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Eugine Weks — Full Stack Developer" },
+      {
+        name: "description",
+        content:
+          "Portfolio of Eugine Weks, full stack developer building secure, scalable and AI-powered web applications.",
+      },
+      { name: "author", content: "Eugine Weks" },
+      { property: "og:title", content: "Eugine Weks — Full Stack Developer" },
+      {
+        property: "og:description",
+        content: "Secure, scalable and AI-powered web applications, designed and built end to end.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
       {
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
     ],
   }),
+
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,

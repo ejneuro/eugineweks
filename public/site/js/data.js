@@ -1,26 +1,32 @@
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
-import project4 from "@/assets/project-4.jpg";
-import project5 from "@/assets/project-5.jpg";
-import project6 from "@/assets/project-6.jpg";
+/* Shared content data — replace these placeholders with real details. */
 
 export const profile = {
   name: "Eugine Weks",
-  role: "Full Stack Developer",
+  firstName: "Eugine",
+  role: "Software Engineer",
   roles: ["Full Stack Developer", "UI/UX Designer", "API & AI Engineer"],
   tagline:
     "I build secure, scalable, and AI-powered web applications that solve real-world problems.",
   email: "hello@eugineweks.dev",
   phone: "+254 700 000 000",
   location: "Nairobi, Kenya",
-  socials: {
-    facebook: "https://facebook.com/",
-    linkedin: "https://linkedin.com/",
-    github: "https://github.com/",
-    instagram: "https://instagram.com/",
-  },
 };
+
+export const socials = [
+  { name: "Facebook", icon: "facebook", url: "https://facebook.com/" },
+  { name: "LinkedIn", icon: "linkedin", url: "https://linkedin.com/" },
+  { name: "GitHub", icon: "github", url: "https://github.com/" },
+  { name: "Instagram", icon: "instagram", url: "https://instagram.com/" },
+];
+
+export const navLinks = [
+  { label: "Home", href: "index.html" },
+  { label: "About", href: "about.html" },
+  { label: "Skills", href: "skills.html" },
+  { label: "Services", href: "services.html" },
+  { label: "Projects", href: "projects.html" },
+  { label: "Contact", href: "contact.html" },
+];
 
 export const stats = [
   { label: "Projects Completed", value: 48, suffix: "+" },
@@ -29,44 +35,46 @@ export const stats = [
   { label: "Technologies Used", value: 24, suffix: "" },
 ];
 
-export const skillGroups = [
+export const skills = [
   {
     title: "Frontend Development",
-    icon: "Layout",
+    icon: "layout",
     level: 95,
     description:
-      "Pixel-accurate, accessible interfaces with React, TypeScript and modern CSS architecture.",
-    stack: ["React", "TypeScript", "Tailwind CSS", "Next.js"],
+      "Pixel-accurate, accessible interfaces built with modern component architecture and design systems.",
+    stack: ["HTML5", "CSS3", "JavaScript", "React"],
   },
   {
     title: "Backend Development",
-    icon: "Server",
+    icon: "server",
     level: 90,
     description:
-      "Secure, well-tested services and business logic built for scale and observability.",
-    stack: ["Node.js", "Python", "PostgreSQL", "Redis"],
+      "Secure, well-tested services, authentication flows and business logic built to scale.",
+    stack: ["Node.js", "Express", "Python", "PostgreSQL"],
   },
   {
     title: "APIs & AI Integration",
-    icon: "Sparkles",
+    icon: "sparkles",
     level: 88,
     description:
-      "REST and GraphQL APIs, plus LLM-powered features like search, chat and automation.",
-    stack: ["REST", "GraphQL", "OpenAI", "LangChain"],
+      "REST and GraphQL APIs plus LLM-powered features such as smart search, chat and automation.",
+    stack: ["REST", "GraphQL", "OpenAI", "Webhooks"],
   },
   {
     title: "UI/UX Appreciation",
-    icon: "PenTool",
+    icon: "pen",
     level: 85,
-    description: "Design systems, prototyping and interaction detail that make products feel premium.",
-    stack: ["Figma", "Design Systems", "Motion", "Accessibility"],
+    description:
+      "Prototyping, motion detail and accessibility work that make products feel genuinely premium.",
+    stack: ["Figma", "Design Systems", "Motion", "A11y"],
   },
   {
     title: "Cloud & Deployment",
-    icon: "Cloud",
+    icon: "cloud",
     level: 87,
-    description: "Containerised deployments, CI/CD pipelines and cost-aware cloud infrastructure.",
-    stack: ["Docker", "AWS", "Vercel", "GitHub Actions"],
+    description:
+      "Containerised deployments, CI/CD pipelines and cost-aware infrastructure with monitoring.",
+    stack: ["Docker", "AWS", "CI/CD", "Nginx"],
   },
 ];
 
@@ -81,19 +89,19 @@ export const journey = [
     year: "2020",
     title: "Went deep on JavaScript",
     description:
-      "Learned React and Node.js, shipped my first full stack application with authentication and a database.",
+      "Learned React and Node.js and shipped my first full stack app with authentication and a database.",
   },
   {
     year: "2022",
     title: "Engineering at scale",
     description:
-      "Joined a product team, adopted TypeScript, testing and CI/CD, and led frontend architecture decisions.",
+      "Joined a product team, adopted testing and CI/CD, and led frontend architecture decisions.",
   },
   {
     year: "2024",
     title: "AI-powered products",
     description:
-      "Started integrating LLMs, vector search and automation into production applications.",
+      "Began integrating language models, vector search and automation into production applications.",
   },
   {
     year: "2026",
@@ -106,44 +114,47 @@ export const journey = [
 export const services = [
   {
     title: "Web Development",
-    icon: "Globe",
+    icon: "globe",
     description:
       "End-to-end websites and web apps built with a modern stack, from first sketch to launch day.",
   },
   {
     title: "Frontend Development",
-    icon: "Layout",
+    icon: "layout",
     description: "Component-driven interfaces that are fast, accessible and delightful to use.",
   },
   {
     title: "Backend Development",
-    icon: "Server",
-    description: "Reliable server logic, authentication and integrations built with security in mind.",
+    icon: "server",
+    description:
+      "Reliable server logic, authentication and integrations built with security in mind.",
   },
   {
     title: "REST API Development",
-    icon: "Plug",
-    description: "Documented, versioned APIs that other teams and products can build on confidently.",
+    icon: "plug",
+    description:
+      "Documented, versioned APIs that other teams and products can confidently build on.",
   },
   {
     title: "Database Design",
-    icon: "Database",
-    description: "Normalised schemas, sane indexes and migrations that keep data fast and trustworthy.",
+    icon: "database",
+    description:
+      "Normalised schemas, sane indexes and safe migrations that keep data fast and trustworthy.",
   },
   {
     title: "Website Maintenance",
-    icon: "Wrench",
-    description: "Ongoing updates, monitoring, backups and dependency care so nothing quietly breaks.",
+    icon: "wrench",
+    description: "Updates, monitoring, backups and dependency care so nothing quietly breaks.",
   },
   {
     title: "Responsive Web Design",
-    icon: "Smartphone",
-    description: "Mobile-first layouts that hold up beautifully from small phones to ultrawide screens.",
+    icon: "phone",
+    description: "Mobile-first layouts that hold up from small phones to ultrawide displays.",
   },
   {
     title: "Performance Optimization",
-    icon: "Gauge",
-    description: "Core Web Vitals audits, bundle trimming and caching strategies for instant page loads.",
+    icon: "gauge",
+    description: "Core Web Vitals audits, bundle trimming and caching strategies for instant loads.",
   },
 ];
 
@@ -154,8 +165,8 @@ export const experience = [
     duration: "2024 — Present",
     responsibilities: [
       "Lead development of AI-assisted client platforms end to end.",
-      "Own frontend architecture, design system and code review culture.",
-      "Mentor two junior developers and run release management.",
+      "Own frontend architecture, the design system and code review culture.",
+      "Mentor junior developers and manage release cycles.",
     ],
     tech: ["React", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
   },
@@ -166,7 +177,7 @@ export const experience = [
     responsibilities: [
       "Built customer dashboards used by thousands of monthly users.",
       "Designed REST APIs and background job pipelines.",
-      "Cut page load time by 45% through profiling and caching.",
+      "Reduced page load time by 45% through profiling and caching.",
     ],
     tech: ["Next.js", "Express", "MongoDB", "Docker"],
   },
@@ -176,83 +187,72 @@ export const experience = [
     duration: "2020 — 2022",
     responsibilities: [
       "Delivered marketing sites and web apps for agency clients.",
-      "Introduced reusable component library and accessibility checks.",
-      "Collaborated closely with designers on motion and polish.",
+      "Introduced a reusable component library and accessibility checks.",
+      "Worked closely with designers on motion and visual polish.",
     ],
-    tech: ["React", "SCSS", "Figma", "Netlify"],
+    tech: ["JavaScript", "SCSS", "Figma", "Netlify"],
   },
 ];
-
-export type ProjectCategory = "Frontend" | "Backend" | "Full Stack";
 
 export const projects = [
   {
     title: "Insight Analytics Dashboard",
-    image: project1,
-    category: "Full Stack" as ProjectCategory,
+    image: "images/project-1.jpg",
+    category: "Full Stack",
     description:
       "Realtime analytics workspace with role-based access, custom reports and scheduled exports.",
-    tech: ["React", "Node.js", "PostgreSQL", "Recharts"],
+    tech: ["React", "Node.js", "PostgreSQL"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
   {
     title: "Nova Commerce Storefront",
-    image: project2,
-    category: "Frontend" as ProjectCategory,
+    image: "images/project-2.jpg",
+    category: "Frontend",
     description:
       "Headless e-commerce storefront with instant search, optimistic cart and edge-cached pages.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+    tech: ["JavaScript", "CSS Grid", "Headless CMS"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
   {
     title: "Atlas AI Assistant",
-    image: project3,
-    category: "Full Stack" as ProjectCategory,
+    image: "images/project-3.jpg",
+    category: "Full Stack",
     description:
       "LLM-powered assistant with streaming responses, document retrieval and usage analytics.",
-    tech: ["React", "Python", "OpenAI", "Vector DB"],
+    tech: ["React", "Python", "OpenAI"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
   {
     title: "Orbit API Platform",
-    image: project4,
-    category: "Backend" as ProjectCategory,
+    image: "images/project-4.jpg",
+    category: "Backend",
     description:
       "Versioned REST API with rate limiting, webhook delivery and auto-generated documentation.",
-    tech: ["Node.js", "Fastify", "Redis", "OpenAPI"],
+    tech: ["Node.js", "Redis", "OpenAPI"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
   {
     title: "Flowboard Task Manager",
-    image: project5,
-    category: "Full Stack" as ProjectCategory,
+    image: "images/project-5.jpg",
+    category: "Full Stack",
     description:
       "Collaborative kanban board with realtime presence, drag-and-drop and activity history.",
-    tech: ["React", "WebSockets", "Prisma", "Docker"],
+    tech: ["JavaScript", "WebSockets", "Docker"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
   {
     title: "Havenly Property Finder",
-    image: project6,
-    category: "Frontend" as ProjectCategory,
+    image: "images/project-6.jpg",
+    category: "Frontend",
     description:
       "Map-driven property discovery with saved searches, filters and shareable listing pages.",
-    tech: ["React", "Mapbox", "React Query"],
+    tech: ["JavaScript", "Maps API", "CSS"],
     github: "https://github.com/",
     demo: "https://example.com/",
   },
 ];
-
-export const navLinks = [
-  { label: "Home", to: "/" },
-  { label: "About", to: "/about" },
-  { label: "Skills", to: "/skills" },
-  { label: "Services", to: "/services" },
-  { label: "Projects", to: "/projects" },
-  { label: "Contact", to: "/contact" },
-] as const;
