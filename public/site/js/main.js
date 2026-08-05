@@ -17,11 +17,13 @@ import {
 
 /* ---------- Theme ---------- */
 
-function initTheme() {
-  const root = document.documentElement;
+function applyStoredTheme() {
   const stored = localStorage.getItem("ew-theme");
-  if (stored) root.dataset.theme = stored;
+  if (stored) document.documentElement.dataset.theme = stored;
+}
 
+function initThemeToggles() {
+  const root = document.documentElement;
   document.querySelectorAll("[data-theme-toggle]").forEach((btn) =>
     btn.addEventListener("click", () => {
       const next = root.dataset.theme === "light" ? "dark" : "light";
@@ -166,8 +168,9 @@ function initContactForm() {
 /* ---------- Boot ---------- */
 
 document.addEventListener("DOMContentLoaded", () => {
-  initTheme();
+  applyStoredTheme();
   renderNav();
+  initThemeToggles();
   renderSocials();
   renderStats();
   renderSkills();
