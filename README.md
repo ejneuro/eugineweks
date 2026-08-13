@@ -2,13 +2,13 @@
 
 Full stack developer building secure, scalable and AI-powered web applications.
 
-**Live:** [eugineweks.dev](https://eugineweks.dev)
+**Live:** [eugineweks.dev](https://eugineweks.netlify.app)
 
 ---
 
 ## About
 
-I'm a full stack developer and software engineer based in Nairobi, currently pursuing a **BSc in Information Technology at Kibabii University**. I design and build web applications that are **fast**, **secure** and genuinely pleasant to use — and I stay involved long after launch.
+I'm a full stack developer and software engineer based in Kitale, currently pursuing a **BSc in Information Technology at Kibabii University**. I design and build web applications that are **fast**, **secure** and genuinely pleasant to use — and I stay involved long after launch.
 
 I'm also the founder of **Quantum Systems**, a platform dedicated to creating innovative software solutions that address real challenges faced by communities and businesses today.
 
