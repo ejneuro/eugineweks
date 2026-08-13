@@ -1,1 +1,105 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Eugine Weks — Hire a Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Get in touch with full stack developer Eugine Weks by email, phone or the contact form to discuss your web project."
+    />
+    <link rel="canonical" href="contact.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Contact Eugine Weks — Full Stack Developer" />
+    <meta
+      property="og:description"
+      content="Email, phone, location and a contact form — let's talk about your next web project."
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div data-nav></div>
 
+    <main id="main">
+      <section class="section" style="position: relative; overflow: hidden">
+        <span class="glow glow-a"></span>
+        <div class="container">
+          <div class="section-head center" data-reveal>
+            <p class="eyebrow">Contact</p>
+            <h2>Let's talk about <span class="gradient-text">your project</span></h2>
+            <p>
+              Whether it's a fresh idea, a rescue mission or a redesign — send a short note and
+              I'll reply within one working day.
+            </p>
+          </div>
+
+          <div class="contact-grid">
+            <form class="card" data-contact-form novalidate data-reveal="right">
+              <div class="grid grid-2" style="gap: 0 18px">
+                <div class="field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" autocomplete="name" placeholder="Your full name" required />
+                </div>
+                <div class="field">
+                  <label for="email">Email</label>
+                  <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required />
+                </div>
+              </div>
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="What is this about?" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Tell me about your project, timeline and budget." required></textarea>
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Send Message</button>
+              <p class="form-note" data-form-note role="status" aria-live="polite"></p>
+            </form>
+
+            <aside style="display: grid; gap: 22px" data-reveal="left">
+              <div class="card">
+                <h3>Contact details</h3>
+                <div data-contact-info style="margin-top: 10px"></div>
+              </div>
+              <div class="card">
+                <h3>Find me online</h3>
+                <div class="socials" style="justify-content: flex-start; margin-top: 16px" data-socials></div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" style="padding-top: 0">
+        <div class="container">
+          <div class="section-head center" data-reveal>
+            <p class="eyebrow">Location</p>
+            <h2>Based in <span class="gradient-text">Nairobi, Kenya</span></h2>
+            <p>Working remotely with clients across Africa, Europe and North America.</p>
+          </div>
+          <div class="map-frame" data-reveal="zoom">
+            <iframe
+              title="Map showing Nairobi, Kenya"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=36.70,-1.40,37.00,-1.20&amp;layer=mapnik"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div data-footer></div>
+    <script type="module" src="js/main.js"></script>
+  </body>
+                </html>
