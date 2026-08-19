@@ -10,7 +10,7 @@ Full stack developer building secure, scalable and AI-powered web applications.
 
 I'm a full stack developer and software engineer based in Kitale, currently pursuing a **BSc in Information Technology at Kibabii University**. I design and build web applications that are **fast**, **secure** and genuinely pleasant to use — and I stay involved long after launch.
 
-I'm also the founder of **Quantic Systems**, a platform dedicated to creating innovative software solutions that address real challenges faced by communities and businesses today.
+I'm also the founder of **Quantum Systems**, a platform dedicated to creating innovative software solutions that address real challenges faced by communities and businesses today.
 
 ### What I Do
 
@@ -39,9 +39,9 @@ Quantum Systems is my venture focused on developing software solutions that crea
 - RESTful APIs, database design
 
 **Infrastructure & Tools**
-- PostgreSQL, MongoDB
+- PostgreSQL, MySQL 
 - Docker, AWS, CI/CD
-- Git, testing frameworks
+- Git, Jest, Postman 
 
 ---
 
@@ -94,7 +94,7 @@ This repository contains my professional portfolio website built with clean, sem
 
 Interested in working together or discussing ideas? Let's talk.
 
-- **Email:** [hello@eugineweks.dev](mailto: neuroweks@gmail.com)
+- **Email:** [hello@eugineweks.dev](mailto:hello@eugineweks.dev)
 - **Website:** [eugineweks.dev](https://eugineweks.dev)
 - **GitHub:** [@ejneuro](https://github.com/ejneuro)
 
